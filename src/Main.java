@@ -23,9 +23,9 @@ public class Main {
         System.out.println("What is your party affiliation? (D, R, I, Other)");
         String res = get_string();
         switch (res) {
-            case "D": System.out.println("You get a democratic donkey.");
-            case "R": System.out.println("You get a republican elephant");
-            case "I": System.out.println("I don't know what independs get tbh");
+            case "D": System.out.println("You get a democratic donkey."); break;
+            case "R": System.out.println("You get a republican elephant"); break;
+            case "I": System.out.println("I don't know what independents get tbh"); break;
             default: System.out.println("Cool choice! I like " + res + " too");
         }
     }
